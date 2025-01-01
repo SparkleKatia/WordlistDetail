@@ -6,15 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2658A4AA2D25CBC900D65584 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2658A4A92D25CBC200D65584 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2658A48A2D25C17C00D65584 /* WordDetails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordDetails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2658A4A92D25CBC200D65584 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		2658A49C2D25C17F00D65584 /* Exceptions for "WordDetails" folder in "WordDetails" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = 2658A4892D25C17C00D65584 /* WordDetails */;
 		};
@@ -27,6 +32,11 @@
 				2658A49C2D25C17F00D65584 /* Exceptions for "WordDetails" folder in "WordDetails" target */,
 			);
 			path = WordDetails;
+			sourceTree = "<group>";
+		};
+		2658A4AB2D25CCA500D65584 /* screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +55,8 @@
 		2658A4812D25C17C00D65584 = {
 			isa = PBXGroup;
 			children = (
+				2658A4A92D25CBC200D65584 /* README.md */,
+				2658A4AB2D25CCA500D65584 /* screenshots */,
 				2658A48C2D25C17C00D65584 /* WordDetails */,
 				2658A48B2D25C17C00D65584 /* Products */,
 			);
@@ -75,6 +87,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				2658A48C2D25C17C00D65584 /* WordDetails */,
+				2658A4AB2D25CCA500D65584 /* screenshots */,
 			);
 			name = WordDetails;
 			packageProductDependencies = (
@@ -122,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2658A4AA2D25CBC900D65584 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +164,6 @@
 				INFOPLIST_FILE = WordDetails/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -178,7 +191,6 @@
 				INFOPLIST_FILE = WordDetails/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
